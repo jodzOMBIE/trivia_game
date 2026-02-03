@@ -32,8 +32,8 @@ export default function Start({ setUserName, userName }) {
                     </a>
                 </div>
                 <div className="wrapper">
-                    <label>Enter Your Username To Start </label>
-                    <input type="text" placeholder='Enter Your Username' className='startInput' ref={inputRef} onFocus={() => playGame()} />
+                    <label>Welk ommen! Deyn Usernähm schitte behn!</label>
+                    <input type="text" placeholder='Deen Usernähm' className='startInput' ref={inputRef} onFocus={() => playGame()} />
                     {
                         error && <code>Enter username!</code>
                     }

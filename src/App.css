@@ -53,11 +53,11 @@
 
 .question {
     width: 80%;
-    background: linear-gradient(#100241, black);
+    background: linear-gradient(#FF355E, black);
     border: 2px solid white;
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     font-size: 20px;
 }
 
@@ -72,7 +72,7 @@
     width: 40%;
     padding: 10px;
     text-align: center;
-    background: linear-gradient(#0e0124, #22074d);
+    background: linear-gradient(#FF355E, #2b2b2b);
     border: 1px solid white;
     border-radius: 15px;
     font-size: 20px;
@@ -83,7 +83,7 @@
 
 .answer:hover,
 .answer.active {
-    background: mediumblue;
+    background: #;
 }
 
 .answer.correct {
@@ -95,7 +95,7 @@
     0%,
     22%,
     42% {
-        background: mediumblue;
+        background: #99FF2E;
     }
 
     20%,

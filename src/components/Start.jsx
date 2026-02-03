@@ -33,7 +33,7 @@ export default function Start({ setUserName, userName }) {
                 </div>
                 <div className="wrapper">
                     <label>Hi! DU bist da, warum? </label>
-                    <input type="text" placeholder='Magste dir Namen geb?' className='startInput' ref={inputRef} onFocus={() => playGame()} />
+                    <input type="text" placeholder='Magste dir Namen geb' className='startInput' ref={inputRef} onFocus={() => playGame()} />
                     {
                         error && <code>Enter username!</code>
                     }
